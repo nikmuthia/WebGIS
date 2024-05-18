@@ -139,7 +139,7 @@ var map = new ol.Map({
 			source: new ol.source.TileArcGISRest({
 				url: 'https://geoportal.kalselprov.go.id/arcgis/rest/services/Kalsel/KALSEL_GEOPARK_5K/MapServer',
 				}),
-			name: 'Trasportation',
+			name: 'Geopark Kalsel',
 			LegenUrl: '',
 			LegentType :'ESRI',
 			InfoPopup : false,
@@ -150,7 +150,7 @@ var map = new ol.Map({
 			source: new ol.source.TileArcGISRest({
 				url: 'https://geoportal.kalselprov.go.id/arcgis/rest/services/Kalsel/KALSEL_IDM_2021_PENDAPATAN_DESA_AR/MapServer',
 				}),
-			name: 'Trasportation',
+			name: 'Pendapatan Desa Kalsel',
 			LegenUrl: '',
 			LegentType :'ESRI',
 			InfoPopup : false,
